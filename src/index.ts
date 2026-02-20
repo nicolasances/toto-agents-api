@@ -3,10 +3,10 @@ import { ControllerConfig } from "./Config";
 import { SayHello } from './dlg/ExampleDelegate';
 
 const config: TotoMicroserviceConfiguration = {
-    serviceName: "toto-ms-ex1",
-    basePath: '/ex1',
+    serviceName: "toto-agents-api",
+    basePath: '/totoagents',
     environment: {
-        hyperscaler: process.env.HYPERSCALER as SupportedHyperscalers || "aws",
+        hyperscaler: process.env.HYPERSCALER as SupportedHyperscalers || "gcp",
         hyperscalerConfiguration: getHyperscalerConfiguration()
     },
     customConfiguration: ControllerConfig,

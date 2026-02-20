@@ -1,6 +1,6 @@
 import { APIOptions, TotoControllerConfig } from 'totoms';
 
-const dbName = 'mydb';
+const dbName = 'totoAgents';
 const collections = {
     coll1: 'coll1',
 };
